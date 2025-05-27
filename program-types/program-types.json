@@ -1,0 +1,95 @@
+{
+  "programming_languages": [
+    {
+      "name": "JavaScript",
+      "type": "Interpreted",
+      "paradigm": ["Event-driven", "Functional", "Imperative"],
+      "use_cases": [
+        "Web Development",
+        "Mobile Apps",
+        "Desktop Apps",
+        "Game Development"
+      ]
+    },
+    {
+      "name": "Python",
+      "type": "Interpreted",
+      "paradigm": ["Object-oriented", "Functional", "Imperative"],
+      "use_cases": [
+        "Web Development",
+        "Data Science",
+        "Machine Learning",
+        "Automation",
+        "Scripting"
+      ]
+    },
+    {
+      "name": "Java",
+      "type": "Compiled (to bytecode)",
+      "paradigm": ["Object-oriented", "Imperative"],
+      "use_cases": [
+        "Enterprise Applications",
+        "Android Development",
+        "Web Applications"
+      ]
+    },
+    {
+      "name": "C++",
+      "type": "Compiled",
+      "paradigm": ["Procedural", "Object-oriented"],
+      "use_cases": ["Game Development", "System Software", "Embedded Systems"]
+    },
+    {
+      "name": "C#",
+      "type": "Compiled",
+      "paradigm": ["Object-oriented", "Component-oriented"],
+      "use_cases": ["Desktop Apps", "Game Development", "Web Applications"]
+    },
+    {
+      "name": "Go",
+      "type": "Compiled",
+      "paradigm": ["Procedural", "Concurrent"],
+      "use_cases": ["Cloud Services", "Networking Tools", "Web Servers"]
+    },
+    {
+      "name": "Rust",
+      "type": "Compiled",
+      "paradigm": ["Functional", "Imperative"],
+      "use_cases": ["System Programming", "WebAssembly", "Embedded Systems"]
+    },
+    {
+      "name": "TypeScript",
+      "type": "Transpiled",
+      "paradigm": ["Object-oriented", "Functional"],
+      "use_cases": ["Large-scale Web Applications", "Frontend Development"]
+    },
+    {
+      "name": "Ruby",
+      "type": "Interpreted",
+      "paradigm": ["Object-oriented"],
+      "use_cases": ["Web Development", "Scripting"]
+    },
+    {
+      "name": "Swift",
+      "type": "Compiled",
+      "paradigm": ["Object-oriented", "Functional"],
+      "use_cases": ["iOS Development", "macOS Applications"]
+    },
+    {
+      "name": "Kotlin",
+      "type": "Compiled",
+      "paradigm": ["Object-oriented", "Functional"],
+      "use_cases": [
+        "Android Development",
+        "Web Development",
+        "Server-side Applications"
+      ]
+    },
+    {
+      "name": "PHP",
+      "type": "Interpreted",
+      "paradigm": ["Procedural", "Object-oriented"],
+      "use_cases": ["Web Development", "Server-side Scripting"]
+    }
+  ]
+}
