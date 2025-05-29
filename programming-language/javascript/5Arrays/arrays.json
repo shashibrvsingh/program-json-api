@@ -1,0 +1,40 @@
+{
+  "chapter": "7.1 Creating Arrays",
+
+  "subtopics": [
+    {
+      "title_id": 1,
+      "title": "Array Literals",
+      "explanation": "Use case of array literals"
+    },
+    {
+      "title": "Spread Operator",
+      "section": "7.1.2",
+      "definition": "Expands an iterable into individual elements inside an array literal.",
+      "syntax": "let newArr = [...iterable];",
+      "application": [
+        "Cloning arrays (shallow copy).",
+        "Merging arrays.",
+        "Converting strings or sets into arrays."
+      ],
+      "examples": [
+        {
+          "description": "Merging arrays",
+          "code": "let b = [0, ...a, 4];"
+        },
+        {
+          "description": "Cloning an array",
+          "code": "let copy = [...original];"
+        },
+        {
+          "description": "String to char array",
+          "code": "let digits = [...'0123'];"
+        },
+        {
+          "description": "Remove duplicates",
+          "code": "[...new Set(['a', 'b', 'a'])];"
+        }
+      ]
+    }
+  ]
+}
