@@ -1,40 +1,10 @@
 {
-  "chapter": "7.1 Creating Arrays",
-
   "subtopics": [
     {
       "title_id": 1,
       "title": "Array Literals",
-      "explanation": "Use case of array literals"
-    },
-    {
-      "title": "Spread Operator",
-      "section": "7.1.2",
-      "definition": "Expands an iterable into individual elements inside an array literal.",
-      "syntax": "let newArr = [...iterable];",
-      "application": [
-        "Cloning arrays (shallow copy).",
-        "Merging arrays.",
-        "Converting strings or sets into arrays."
-      ],
-      "examples": [
-        {
-          "description": "Merging arrays",
-          "code": "let b = [0, ...a, 4];"
-        },
-        {
-          "description": "Cloning an array",
-          "code": "let copy = [...original];"
-        },
-        {
-          "description": "String to char array",
-          "code": "let digits = [...'0123'];"
-        },
-        {
-          "description": "Remove duplicates",
-          "code": "[...new Set(['a', 'b', 'a'])];"
-        }
-      ]
+      "explanation": "Use case of array literals",
+      "code_examples": "// An array with no elements\nlet empty = [];  \n\n// An array with 5 numeric elements\nlet primes = [2, 3, 5, 7, 11];  \n\n// An array with elements of different data types and a trailing comma (which is allowed)\nlet misc = [1.1, true, \"a\",];  \n\n// Using variables and expressions inside array literals\nlet base = 1024;\nlet table = [base, base + 1, base + 2, base + 3];  // [1024, 1025, 1026, 1027]\n\n// Array literals can include objects and even other arrays\nlet b = [\n  [1, { x: 1, y: 2 }],\n  [2, { x: 3, y: 4 }]\n];  // A nested array containing numbers and objects\n\n// Sparse arrays: missing elements between commas\nlet count = [1, , 3];   // Index 1 is empty (not undefined, actually nonexistent)\nlet undefs = [ , , ];   // No defined elements, but length is 2"
     }
   ]
 }
